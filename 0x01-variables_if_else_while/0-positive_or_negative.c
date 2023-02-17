@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 
  /** main - A program that will  print whether the number stored
   * in the variable n is positive or negative
