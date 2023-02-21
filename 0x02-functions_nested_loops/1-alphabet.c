@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 /**
  * print_alphabet - Entry point
@@ -13,8 +13,8 @@ void print_alphabet(void)
 
 	while (letter <= 'z')
 	{
-		_putchar(letter);
+		putchar(letter);
 		letter++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
